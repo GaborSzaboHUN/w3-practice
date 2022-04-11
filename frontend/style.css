@@ -1,6 +1,11 @@
 body {
   margin: 0;
   padding: 0;
+
+}
+
+div{
+  box-sizing: border-box;
 }
 
 body > div {
@@ -8,6 +13,45 @@ body > div {
   width: 100vh;
   background-color: #e33d3b;
 }
+
+div.first {
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+}
+
+div.first ~ div{
+  border-left: 20px solid #8024e3;
+}
+
+div.first.most-inner {
+  border-radius: 50%;
+}
+
+div.first.most-inner::before{
+  content:"A";
+  position:fixed;
+  display: block;
+  bottom: 0;
+  right:0;
+  width: 100px;
+  height: 100px;
+  background-color: #e6d725;
+}
+
+div.first.most-inner::after{
+  content:"B"
+}
+
+div.first.most-inner:hover {
+  background-color: black;
+}
+
+body > div.first,
+div.first.most-inner {
+  border-bottom: 10px solid whitesmoke;
+  bo
+}
+
 
 body > div > div {
   height: 90vh;
