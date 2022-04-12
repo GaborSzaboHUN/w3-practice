@@ -103,3 +103,12 @@ body > div > div > div > div > div > div > div > div > div > div {
   width: 10vh;
   background-color: #41a7e8;
 }
+
+input:focus {
+  background: yellow;
+  border: none;
+}
+
+.first:nth-last-child(2) {
+  border: 5px dashed blue;
+}
