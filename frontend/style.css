@@ -41,6 +41,13 @@ header nav button {
   border: none;
 }
 
+div div,
+body div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 div {
   box-sizing: border-box;
 }
@@ -142,6 +149,7 @@ body > div > div > div > div > div > div > div > div > div > div {
   background-color: #41a7e8;
 }
 
+/*
 input:focus {
   background: yellow;
   border: none;
@@ -150,3 +158,4 @@ input:focus {
 .first:nth-last-child(2) {
   border: 5px dashed blue;
 }
+*/
