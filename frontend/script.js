@@ -19,7 +19,8 @@ async function loadEvent() {
   `
   );
 
-  /*  countriesSection.insertAdjacentHTML(
+  /*  
+  countriesSection.insertAdjacentHTML(
     "beforeend",
     countriesJson[0].name.common
 */
