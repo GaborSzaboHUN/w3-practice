@@ -41,12 +41,14 @@ header nav button {
   border: none;
 }
 
+/*
 div div,
 body div {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+*/
 
 div {
   box-sizing: border-box;
